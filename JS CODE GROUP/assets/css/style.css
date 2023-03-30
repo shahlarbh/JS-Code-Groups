@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: regular;
+  src: url(/assets/fonts/ShortStack-Regular.ttf);
+}
+body {
+  background-image: linear-gradient(to right, #009fff, #ec2f4b);
+  width: 100%;
+  height: 100vh;
+}
+body .all {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body .all .input {
+  display: flex;
+  justify-content: center;
+}
+body .all .input input {
+  padding: 16px 32px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  outline-style: none;
+  font-family: regular;
+}
+body .all .button {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+}
+body .all .button button {
+  padding: 16px 48px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #42b72a;
+  color: white;
+  font-weight: bold;
+  font-family: regular;
+  transition: 0.5s;
+}
+body .all .button button:hover {
+  background-color: gold;
+  letter-spacing: 4px;
+}
+body .all .result {
+  text-align: center;
+}
+body .all .result span {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: regular;
+}/*# sourceMappingURL=style.css.map */
